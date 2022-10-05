@@ -1,0 +1,136 @@
+@media (max-width: 1205px)
+
+  .intro
+    
+
+    &--banner
+      hm1 
+        position: absolute
+        font-family: "MokotoG2"
+        font-size: 6em;
+        margin: 0 0 0 0;
+        padding: 30px 0 0 0;
+        z-index: -2
+
+      hm3
+        position: absolute
+        font-family: "MokotoG1";
+        font-size: 2.0em;
+        padding-top: 65px
+        margin: 0 0  0;
+
+      img
+        height: 500px
+        position: absolute
+        bottom: -25px
+        left: 22%
+        z-index: -1
+
+      p
+        font-size: 1em
+        padding-top: 150px
+        margin-bottom: 20px
+        margin-right: 30%
+
+        z-index: 20
+
+      button
+
+        position: relative
+        margin: 3px 2% 17px 5px
+        padding: 5px 17px 5px 12px
+        font-weight: 700
+        
+        text-transform: uppercase
+        font-size: 1.0em
+        background-color: transparent
+        border: none
+
+    &--options
+      h3
+        font-size: 15px
+        text-transform: uppercase
+        color: $blue
+
+      p
+        font-size: 12px
+
+
+
+
+
+
+@media (max-width: 900px)
+
+  .intro
+
+    &--banner
+      height: 380px
+
+      h1
+        font-size: 55px
+
+      img
+        height: 300px
+
+    &--options
+
+      & > a
+        margin-right: 30px
+
+        &:last-child
+          margin-right: 0
+
+@media (max-width: 767px)
+
+  .intro
+
+    &--banner
+      height: 305px
+
+      h1
+        font-size: 44px
+
+      img
+        width: 330px
+
+    &--options
+      display: block
+
+      & > a
+        display: block
+        max-width: 100%
+        margin: 0 0 30px 0
+
+        &:last-child
+          margin-bottom: 0
+
+@media (max-width: 600px)
+
+  .intro
+
+    &--banner
+      height: 360px
+
+      h1
+        font-size: 55px
+
+      img
+        display: none
+
+@media (max-width: 600px) and (max-height: 750px)
+
+  .intro
+
+    &--banner
+      height: auto
+
+      &::before,
+      &::after
+        display: none
+
+      h1
+        margin-top: 0
+
+    &--options
+      display: none

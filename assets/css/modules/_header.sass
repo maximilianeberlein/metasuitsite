@@ -1,0 +1,255 @@
+.header
+  position: absolute
+  top: 10px
+  left: 0
+  display: flex
+  width: 80%
+  height: 50px
+  align-items: center
+  justify-content: space-between
+  z-index: 10
+  
+
+  &--logo
+    display: flex
+    height: 600px
+    align-items: center
+    text-decoration: none
+    color: $white
+
+    &:hover
+      transition: all 0.1s ease-in
+      transition: all 0.1s ease-out
+      padding-bottom: 3px
+
+  
+    p
+      font-size: 12px
+      padding: 0 2% 0 2%
+          
+
+
+    p
+      margin: 0 0 0 10px
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+    
+ 
+
+  &--nav-toggle
+    display: flex
+    width: 50px
+    height: 50px
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    cursor: pointer
+    
+    
+      
+
+    span,
+    &::before,
+    &::after
+      content: ""
+      position: relative
+      width: 16px
+      height: 2px
+      background-color: $white
+
+    &::before
+      bottom: 5px
+      width: 23px
+      
+
+    &::after
+      top: 5px
+      width: 23px
+
+  &--cta_logo
+    display: flex
+    
+    align-items: center
+    text-decoration: none
+    color: $white
+    
+    
+
+    p
+      margin: 100px 0 0 10px
+      font-size: 16px
+      font-weight: 700
+      text-transform: uppercase
+
+  &--cta
+
+
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 0 20px
+    line-height: 30px
+    text-decoration: none
+    color: $white
+    font-weight: 700
+    text-transform: uppercase
+    background-color: $highlight
+    border: none
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
+
+    &:focus
+      outline: none
+
+    &.is-active
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
+
+    @media (max-width: 767px)
+      display: none
+    
+  &--cta_1
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 0 20px
+    line-height: 30px
+    text-decoration: none
+    color: $white
+    font-weight: 700
+    text-transform: uppercase
+    background-color: $highlight
+    border: none
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
+
+    &:focus
+      outline: none
+
+    &.is-active
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
+
+    @media (max-width: 767px)
+      display: none
+    
+  &--cta_2
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 0 20px
+    line-height: 30px
+    text-decoration: none
+    
+    color: $white
+    font-weight: 700
+    text-transform: uppercase
+    background-color: $pink
+    border: none
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
+
+    &:focus
+      outline: none
+
+    &.is-active
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
+
+    @media (max-width: 767px)
+      display: none
+  
+  &--cta_3
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 0 20px
+    line-height: 30px
+    text-decoration: none
+    color: $white
+    font-weight: 700
+    text-color: $blue
+    text-transform: uppercase
+    background-color: $blue
+    border: none
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
+
+    &:focus
+      outline: none
+
+    &.is-active
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
+
+    @media (max-width: 767px)
+      display: none
+
+  &--cta_4
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 0 20px
+    line-height: 30px
+    text-decoration: none
+    color: $white
+    font-weight: 700
+    text-transform: uppercase
+    background-color: $highlight
+    border: none
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
+
+    &:focus
+      outline: none
+
+    &.is-active
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
+
+    @media (max-width: 767px)
+      display: none
+
+  &--cta_5
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    padding: 0 20px
+    line-height: 30px
+    text-decoration: none
+    color: $white
+    font-weight: 700
+    text-transform: uppercase
+    background-color: $highlight
+    border: none
+    opacity: 0
+    visibility: hidden
+    transition: opacity .4s ease-in-out, visibility 0s .4s
+
+    &:focus
+      outline: none
+
+    &.is-active
+      opacity: 1
+      visibility: visible
+      transition: opacity .4s ease-in-out .4s
+
+    @media (max-width: 767px)
+      display: none
